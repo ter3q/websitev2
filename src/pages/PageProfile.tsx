@@ -1,6 +1,6 @@
 import { useLanyard } from "react-use-lanyard";
 
-export default function Pagetest() {
+export default function PageProfile() {
     const { loading, status } = useLanyard({
         userId: "988061028489236579",
         socket: true,
@@ -29,9 +29,10 @@ export default function Pagetest() {
 
     return (
         <>
-        
+            <div>
             <br></br>
             <h1 className=" text-center text-6xl font-bold my-50">Test</h1>
+            </div>
 
             <div
                 className="bg-gradient-to-r from-blue-500 to-blue-300
