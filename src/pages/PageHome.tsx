@@ -43,7 +43,7 @@ export const Comp = () => {
                 inView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 "
             )}
         >
-            <p className='text-center text-6xl font-bold my-35 text-[#baccf7]'>Welcome to ter3q.com</p>
+            <p className='text-center text-6xl font-bold my-35 text-[#fdd6dd]'>Welcome to ter3q.com</p>
         </h1>
     );
 };
